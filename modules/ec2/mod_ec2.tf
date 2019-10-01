@@ -4,8 +4,7 @@ resource "aws_instance" "myweb" {
    security_groups = ["default"]
    
    tags {
-      Managed = "Terraform"
-     
+      Managed = "Terraform"     
       }
 
 }
